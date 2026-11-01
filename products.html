@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products- Lithograph Fabrications</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/products.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container-fluid px-lg-5">
+        <a class="navbar-brand" href="3d-printing.html">
+          <img src="assets/images/logo.png" alt="Lithograph Fabrications Logo" class="img-fluid" />
+        </a>
+        <div class="d-flex align-items-center ms-auto order-lg-2">
+          <button class="navbar-toggler d-lg-none border-0 ms-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/images/hamburger.svg" alt="Menu Toggle" class="custom-toggler-icon" />
+            <img src="assets/images/close_icon.svg" alt="Close" class="close-icon" />
+          </button>
+        </div>
+        <div class="d-flex w-100 order-lg-1">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <hr class="my-4" style="border: 1px solid #1a1a1a; opacity: 0.1" />
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3d-printing.html">What is 3D Printing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products Made</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="bg-light">
+    <section class="hero-section text-center text-white">
+      <div class="container py-5">
+        <h1 class="display-4 fw-bold">Products made</h1>
+      </div>
+    </section>
+    <section class="container my-4">
+      <nav class="custom-breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><strong>Home</strong></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Products made
+          </li>
+        </ol>
+      </nav>
+    </section>
+    <section class="container my-4">
+      <div class="text-center my-5 intro">
+        <h2>Showcasing the Creations That Shape Our World</h2>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="filter-card-container">
+            <!-- Mobile-only collapsible header -->
+            <div class="filter-header d-lg-none" data-bs-toggle="collapse" data-bs-target="#filterCollapse"
+              aria-expanded="false" aria-controls="filterCollapse">
+              <img src="assets/images/products/filter-icon.svg" alt="Filter Icon" class="me-2" />
+              <span>Filter</span>
+              <span class="ms-auto filter-arrow">▼</span>
+            </div>
+            <!-- Desktop-only static header -->
+            <div class="filter-header d-none d-lg-flex">
+              <img src="assets/images/products/filter-icon.svg" alt="Filter Icon" class="me-2" />
+              <span>Filter</span>
+            </div>
+            <div class="collapse d-lg-block" id="filterCollapse">
+              <div class="filter-accordion accordion" id="filterAccordion">
+                <!-- Accordion Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Aerospace and Defence
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Aerospace and Defence"
+                            data-subcategory="Satellites">Satellites</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Aerospace and Defence"
+                            data-subcategory="Drones">Drones</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Aerospace and Defence"
+                            data-subcategory="Aircraft">Aircraft</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Automotive
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Automotive"
+                            data-subcategory="Electric">Electric</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Automotive"
+                            data-subcategory="Luxury">Luxury</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Automotive" data-subcategory="SUV">SUV</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Electronics and Semiconductors
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Electronics and Semiconductors"
+                            data-subcategory="Smartphones">Smartphones</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Electronics and Semiconductors"
+                            data-subcategory="Laptops">Laptops</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Electronics and Semiconductors"
+                            data-subcategory="Chips">Chips</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour">
+                      Energy
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Energy" data-subcategory="Solar">Solar</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Energy" data-subcategory="Wind">Wind</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Energy"
+                            data-subcategory="Nuclear">Nuclear</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 5 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive">
+                      Medical and Dental
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Medical and Dental"
+                            data-subcategory="Surgical">Surgical</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Medical and Dental"
+                            data-subcategory="Dental">Dental</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Medical and Dental"
+                            data-subcategory="Diagnostics">Diagnostics</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 6 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix">
+                      Robotics
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Robotics"
+                            data-subcategory="Industrial">Industrial</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Robotics"
+                            data-subcategory="Medical">Medical</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Robotics" data-subcategory="AI Robots">AI
+                            Robots</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 7 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven">
+                      Consumer Products
+                    </button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Consumer Products"
+                            data-subcategory="Home">Home</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Consumer Products"
+                            data-subcategory="Kitchen">Kitchen</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Consumer Products"
+                            data-subcategory="Personal Care">Personal Care</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 8 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseEight">
+                      Hardware Startups
+                    </button>
+                  </h2>
+                  <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Hardware Startups"
+                            data-subcategory="IoT Devices">IoT Devices</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Hardware Startups"
+                            data-subcategory="Wearables">Wearables</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Hardware Startups"
+                            data-subcategory="Prototypes">Prototypes</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 9 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseNine">
+                      Supply Chain & Purchasing
+                    </button>
+                  </h2>
+                  <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Supply Chain & Purchasing"
+                            data-subcategory="Logistics">Logistics</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Supply Chain & Purchasing"
+                            data-subcategory="Procurement">Procurement</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Supply Chain & Purchasing"
+                            data-subcategory="Distribution">Distribution</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 10 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTen">
+                      Design Agencies
+                    </button>
+                  </h2>
+                  <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Design Agencies"
+                            data-subcategory="Graphic Design">Graphic Design</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Design Agencies"
+                            data-subcategory="UI/UX">UI/UX</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Design Agencies"
+                            data-subcategory="Branding">Branding</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 11 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEleven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseEleven">
+                      Industrial
+                    </button>
+                  </h2>
+                  <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Industrial"
+                            data-subcategory="Machinery">Machinery</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Industrial"
+                            data-subcategory="Tools">Tools</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Industrial"
+                            data-subcategory="Equipment">Equipment</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 12 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwelve">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwelve">
+                      Manufacturing
+                    </button>
+                  </h2>
+                  <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Manufacturing"
+                            data-subcategory="Automated">Automated</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Manufacturing"
+                            data-subcategory="Manual">Manual</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Manufacturing"
+                            data-subcategory="Assembly Line">Assembly Line</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 13 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThirteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThirteen">
+                      Education
+                    </button>
+                  </h2>
+                  <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Education"
+                            data-subcategory="Schools">Schools</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Education"
+                            data-subcategory="Colleges">Colleges</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Education"
+                            data-subcategory="Training">Training</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion Item 14 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFourteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFourteen">
+                      Lighting
+                    </button>
+                  </h2>
+                  <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                    data-bs-parent="#filterAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Lighting"
+                            data-subcategory="Indoor">Indoor</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Lighting"
+                            data-subcategory="Outdoor">Outdoor</a>
+                        </li>
+                        <li>
+                          <a href="#" class="subcategory-link" data-category="Lighting"
+                            data-subcategory="Industrial">Industrial</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="col-lg-9">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Aerospace and Defence"
+              data-subcategory="Satellites">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/1.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Satellite Frame</h5>
+                  <p class="card-text">Lightweight Aerospace Alloy</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Aerospace and Defence"
+              data-subcategory="Drones">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/2.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Surveillance Drone</h5>
+                  <p class="card-text">High-Precision Navigation</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Automotive" data-subcategory="Engines">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/3.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Hybrid Engine</h5>
+                  <p class="card-text">Fuel-Efficient Automotive Tech</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Automotive"
+              data-subcategory="EV Components">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/4.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">EV Battery Pack</h5>
+                  <p class="card-text">Long-Lasting Lithium-Ion Cells</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Electronics and Semiconductors"
+              data-subcategory="Chipsets">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/5.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">AI Chipset</h5>
+                  <p class="card-text">Next-Gen Processor</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Electronics and Semiconductors"
+              data-subcategory="Sensors">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/6.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Precision Sensor</h5>
+                  <p class="card-text">High-Accuracy Detection</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Medical and Dental"
+              data-subcategory="Devices">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/7.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Medical Scanner</h5>
+                  <p class="card-text">Portable Diagnostic Unit</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Medical and Dental"
+              data-subcategory="Dental Equipment">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/8.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Dental Drill</h5>
+                  <p class="card-text">High-Speed Precision Tool</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Robotics"
+              data-subcategory="Industrial Robots">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/9.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Robotic Arm</h5>
+                  <p class="card-text">Automated Precision Assembly</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Robotics"
+              data-subcategory="Service Robots">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/10.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Service Robot</h5>
+                  <p class="card-text">Customer Assistance Bot</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Consumer Products"
+              data-subcategory="Home Appliances">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/11.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Refrigerator</h5>
+                  <p class="card-text">IoT Connected Cooling</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 product-card-wrapper" data-category="Consumer Products"
+              data-subcategory="Wearables">
+              <div class="card product-card p-2">
+                <img src="assets/images/products/12.png" class="card-img-top rounded-3" alt="Product Image" />
+                <div class="card-body">
+                  <h5 class="card-title">Smartwatch</h5>
+                  <p class="card-text">Health and Fitness Tracking</p>
+                  <a href="#" class="stretched-link">View products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Load More Button -->
+          <div class="text-center mt-4 mb-5">
+            <button class="btn btn-load-more">Load More</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section
+      class="text-center text-white py-5 contact-us-section d-flex flex-column justify-content-center align-items-center">
+      <h2 class="h3 fw-bold">Start working with us now</h2>
+      <p class="my-3">
+        Partner with Lithograph Fabrications today to transform your concepts into precision-crafted products through
+        innovation and expertise.
+      </p>
+      <a href="contact-us.html" class="btn px-4">Contact Us</a>
+    </section>
+  </main>
+  <footer class="footer-dark py-5 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <ul class="nav flex-column flex-lg-row text-center text-lg-start">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="3d-printing.html">What is 3D Printing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="products.html">Products Made</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4" style="border-color: #ffffff" />
+      <div class="row text-center text-lg-start justify-content-center">
+        <div class="col-lg-6 text-center my-3 my-lg-0 opacity-50 py-2 justify-content-center d-flex">
+          <p>© 2025 Lithograph Fabrications. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="back-to-top-container">
+        <a href="#" class="back-to-top">
+          <img src="assets/images/arrow-up.svg" alt="Back to top" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

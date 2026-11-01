@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d_46_3418)" style="" transform="matrix(2.54425, 0, 0, 2.54425, -123.540001, -113.362999)">
+    <circle cx="80" cy="76" r="30" fill="#6EB48B"/>
+  </g>
+  <path d="M 80 65.533 L 102.633 90.914 L 99.463 94.467 L 80 72.64 L 60.537 94.467 L 57.367 90.914 L 80 65.533 Z" fill="white" style=""/>
+  <defs>
+    <filter id="filter0_d_46_3418" x="0" y="0" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="25"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_46_3418"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_46_3418" result="shape"/>
+    </filter>
+  </defs>
+</svg>
